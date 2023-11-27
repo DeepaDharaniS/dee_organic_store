@@ -1,0 +1,412 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid chartreuse; */
+}
+/* marquee{
+    color: #000000;
+    font-weight: bold;
+} */
+
+.logoBar {
+    height: 20vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    height: 138px;
+    width: 60%;
+    margin-left: 200px;
+}
+
+.searchBar input {
+    flex: 1;
+    border: none;
+    border: 2px solid grey;
+    border-radius: 7px;
+    width: 550px;
+    height: 40px;
+    margin-right: 50px;
+}
+
+.iconLinks {
+    display: flex;
+    margin-right: 300px;
+}
+
+.iconLinks li {
+    list-style-type: none;
+}
+
+.iconLinks li i {
+    font-size: 30px;
+    color: #000000;
+    text-indent: 25px;
+}
+/* header{
+    position: sticky;
+    top: 0;
+
+} */
+.navBar {
+    height: 7vh;
+    background-color: #58a22a;
+    /* top: 0;
+    z-index: 1;
+    position: fixed;
+    width: 100%; */
+
+}
+
+.navLinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.navLinks li {
+    list-style-type: none;
+    margin-top: 15px;
+
+}
+
+.navLinks li:hover a {
+    text-decoration: underline;
+
+}
+
+.navLinks li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.navLinks li i {
+    color: black;
+    font-size: 15px;
+
+}
+.userSection{
+    display: flex;
+    margin-top: 5%;
+    line-height: 2;
+   x
+}
+.login{
+    width: 50%;
+    margin-left: 20%;
+    /* margin-top: 20px; */
+}
+.register{
+    width: 50%;
+}
+.login form{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.register form{
+    margin-top: 10px;
+    font-size: 16px;
+    
+}
+#mail{
+    width: 350px;
+    height: 30px;
+    border: 2px solid #000000;
+}
+#pin{
+    width: 350px;
+    height: 30px;
+    border: 2px solid #000000;
+}
+#name{
+    width: 350px;
+    height: 30px;
+    border: 2px solid #000000;
+}
+.login .log{
+    height: 40px;
+    width: 90px;
+    background-color: #58a22a;
+    margin-top: 10px;
+}
+.log a{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+.register .reg{
+    height: 40px;
+    width: 90px;
+    background-color: #58a22a;
+    margin-top: 10px;
+}
+.reg a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.login .face{
+    height: 40px;
+    width: 160px;
+    /* border-radius: 5px; */
+}
+.login .goog{
+    height: 40px;
+    width: 160px;
+    margin-top: 10px;
+    /* border-radius: 5px; */
+}
+.face a{
+    text-decoration: none;
+}
+.goog a{
+    text-decoration: none;
+}
+footer{
+    margin-top: 20px;
+}
+footer .logoFoot{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #adadad;
+}
+.workShops{
+    text-align: center;
+    margin-top: 40px;
+}
+.workShops hr{
+    /* color: 8px solid black; */
+    height: 4px;
+    background-color: #000000;
+}
+.workShops ul{
+    display: flex;
+    
+}
+.workShops ul li{
+    list-style-type: none;
+}
+.workShops i{
+    text-indent: 8px;
+    /* text-align: center; */
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.workShops img{
+    margin-top: 20px;
+}
+.pages{
+    margin-bottom: 105px;
+}
+.pages hr{
+    /* color: 8px solid black; */
+    height: 4px;
+    background-color: #000000;
+    margin-bottom: 20px;
+    width: 110%;
+}
+.pages ul li{
+    list-style-type: none;
+}
+.pages li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+}
+.logoFoot p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.links{
+    margin-bottom: 105px;
+}
+.links hr{
+    /* color: 8px solid black; */
+    height: 4px;
+    background-color: #000000;
+    margin-bottom: 20px;
+    width: 130%;
+}
+.links ul li{
+    list-style-type: none;
+}
+.links li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+}
+.blogs{
+    margin-bottom: 120px;
+}
+.blogs hr{
+    /* color: 8px solid black; */
+    height: 4px;
+    background-color: #000000;
+    margin-bottom: 20px;
+    width: 120%;
+}
+.blogs ul li{
+    list-style-type: none;
+}
+.blogs li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+}
+.reviewFoot{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 30vh;
+    
+}
+.logoReview{
+    display: flex;
+    width: 20%;
+    /* margin-left: 150px; */
+}
+.head img{
+    width: 50%;
+    margin-left: 50px;
+}
+.head button{
+    margin-left: 50px;
+    background-color: blue;
+    /* color: #ffffff; */
+    padding: 10px;
+    border-radius: 10px;
+}
+.head button a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.body{
+    line-height: 1.5;
+    /* padding-right: 550px; */
+    /* margin-right: 20px; */
+    /* width: 10%; */
+   
+}
+.cardReview{
+    display: flex;
+    gap: 1rem;
+}
+.rcardHeader{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 50%;
+}
+.rcardHeader img{
+    width: 100%;
+    height: 70px;
+    border-radius: 50%;
+    
+}
+.rCard{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    border: 2px solid black;
+    border-radius: 7px;
+    height: 170px;
+}
+.rcardBody p{
+    /* margin-right: 200px;
+    width: 100%; */
+   margin-left: 20px;
+}
+.rCard i{
+    color: #000000;
+    font-size: 10px;
+}
+.copyrightsSection{
+    height: 8vh;
+    background-color: #000000;
+}
+.copyRights{
+    text-align: center;
+   
+}
+.copyRights p{
+    color: #ffffff;
+    padding-top: 20px;
+}
+.subscribeSection{
+    height: 30vh;
+    background-color: #adadad;
+    display: flex;
+}
+.followLinks{
+    display: flex;
+    padding-top: 20px;
+    margin-left: 240px;
+    
+}
+.followLinks li{
+    list-style-type: none;
+}
+.followLinks i{
+    font-size: 20px;
+    background-color: #000000;
+    /* text-indent: 50px; */
+    border-radius: 50px;
+    padding: 20px;
+    
+}
+.follow{
+    /* margin-top: 50px; */
+}
+.follow p{
+    font-size: 30px;
+    margin-left: 240px;
+    padding-top: 40px;
+    
+    
+}
+.subscribe p{
+    font-size: 20px;
+    margin-left: 220px;
+    /* padding-top: 40px; */
+}
+.subscribe .ps{
+    padding-top: 40px;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.subscribe form{
+    margin-left: 220px;
+    margin-top: 20px;
+}
+#email{
+    width: 70%;
+    height: 40px;
+    border-radius: 4px;
+}
+.subscribe button{
+    height: 40px;
+    width: 25%;
+    border-radius: 4px;
+    background-color: #58a22a;
+}
+.subscribe button a{
+    text-decoration: none;
+    color: #ffffff;
+    /* font-weight: bold; */
+    font-size: 20px;
+    
+    
+}
+.subscribe button:hover {
+    background-color: #000000;
+}
